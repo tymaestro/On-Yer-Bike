@@ -37,12 +37,24 @@ h1, h2 , th {
 
 .nav-menu {
     float: right;
-    margin: 20px;
+    margin: 1% 1%;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
 }
 
 .title {
-    margin: 20px;
+    margin: 1% 1%;
     float: left;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: 600;
+    color: white;
 }
 
 /* bike page */
@@ -57,11 +69,24 @@ h1, h2 , th {
 
 .thank-you-image {
     background: url(/assets/images/bicycle-high-five.jpeg) no-repeat center center;
-    height: 1000px;
+    height: 820px;
     width: auto;
 }
 
 .thank-you {
     float: right;
     color: white;
+    margin: 50px 10px;
+}
+
+
+
+.about-us, .opening-hours {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.about-us p{
+    line-height: 20px;
+    margin: 1%;
 }
