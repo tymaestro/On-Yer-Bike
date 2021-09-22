@@ -39,3 +39,29 @@ h1, h2 , th {
     float: right;
     margin: 20px;
 }
+
+.title {
+    margin: 20px;
+    float: left;
+}
+
+/* bike page */
+
+/* .bike-image {
+    height: auto;
+    width: 300px;
+    display: inline;
+    float: right;
+    margin-right: 50px;
+} */
+
+.thank-you-image {
+    background: url(/assets/images/bicycle-high-five.jpeg) no-repeat center center;
+    height: 1000px;
+    width: auto;
+}
+
+.thank-you {
+    float: right;
+    color: white;
+}
