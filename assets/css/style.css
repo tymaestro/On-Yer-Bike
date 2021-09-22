@@ -15,5 +15,27 @@ body {
 h1, h2 , th {
     font-family: Roboto, sans-serif;
     font-weight: 300;
+    text-transform: uppercase;
     color: blue;
+}
+
+/* .social-media {
+    bottom: 10px;
+    right: 50%;
+    position: absolute;
+}
+
+.social-anchors {
+    margin: 10px;
+} */
+
+.main-image {
+    background: url(/assets/images/cyclists-trail-bike-clouds-163407.jpeg) no-repeat center center;
+    height: 500px;
+    width: 100%;
+}
+
+.nav-menu {
+    float: right;
+    margin: 20px;
 }
