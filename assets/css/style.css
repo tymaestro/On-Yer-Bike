@@ -22,7 +22,7 @@ h1, h2 , th {
 /* Home Page */
 
 .main-image {
-    background: url('/assets/images/cyclists-trail-bike-clouds-163407.jpeg') no-repeat center center;
+    background: url('../images/cyclists-trail-bike-clouds-163407.jpeg') no-repeat center center;
     height: 500px;
     width: 100%;
 }
@@ -95,7 +95,7 @@ th, td {
 /* Workshop Page */
 
 .workshop-image {
-    background: url('/assets/images/bicycle-sunset.jpeg');
+    background: url('../images/bicycle-sunset.jpeg');
     background-size: cover;
     background-position: center;
     height: 822px;
@@ -123,7 +123,7 @@ th, td {
 /* Thank You Page */
 
 .thank-you-image {
-    background: url(/assets/images/bicycle-high-five.jpeg) no-repeat center center;
+    background: url('../images/bicycle-high-five.jpeg') no-repeat center center;
     height: 820px;
     width: auto;
 }
