@@ -19,47 +19,12 @@ h1, h2 , th {
     color: #181d24;
 }
 
-/* .social-media {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: block;
-    font-size: 200%;
-} */
-
-.social-media {
-    text-align: center;
-    font-size: 200%;
-}
-
-.social-media a {
-    padding: 20px;
-}
+/* Home Page */
 
 .main-image {
     background: url('/assets/images/cyclists-trail-bike-clouds-163407.jpeg') no-repeat center center;
     height: 500px;
     width: 100%;
-}
-
-.workshop-image {
-    background: url('/assets/images/bicycle-sunset.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 822px;
-}
-
-.nav-menu {
-    float: right;
-    margin: 1% 1%;
-    margin-top: 2%;
-}
-
-.nav-menu a {
-    text-decoration: none;
-    color: white;
-    font-size: 150%;
-    padding: 10px;
 }
 
 .title {
@@ -74,28 +39,22 @@ h1, h2 , th {
     color: white;
 }
 
-/* bike page */
+/* Navigation */
 
-.bike-image {
-    height: 150px;
-    width: auto;
-    display: inline;
+.nav-menu {
     float: right;
-    margin-right: 50px;
-    border-radius: 10px;
+    margin: 1% 1%;
+    margin-top: 2%;
 }
 
-.thank-you-image {
-    background: url(/assets/images/bicycle-high-five.jpeg) no-repeat center center;
-    height: 820px;
-    width: auto;
-}
-
-.thank-you {
-    float: right;
+.nav-menu a {
+    text-decoration: none;
     color: white;
-    margin: 50px 10px;
+    font-size: 150%;
+    padding: 10px;
 }
+
+/* About us and opening hours */
 
 .about-us, .opening-hours {
     text-align: center;
@@ -111,6 +70,43 @@ th, td {
     padding: 20px;
 }
 
+/* social media */
+
+.social-media {
+    text-align: center;
+    font-size: 200%;
+}
+
+.social-media a {
+    padding: 20px;
+}
+
+/* Bike Page */
+
+.bike-image {
+    height: 150px;
+    width: auto;
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+/* Workshop Page */
+
+.workshop-image {
+    background: url('/assets/images/bicycle-sunset.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 822px;
+}
+
+.form-section {
+    margin-top: 40%;
+    margin-left: 40%;
+    position: absolute;
+}
+
 .form-input {
     border: 1px solid #181d24;
     border-radius: 4px;
@@ -122,4 +118,18 @@ th, td {
     color: white;
     background-color: transparent;
     border-radius: 4px;
+}
+
+/* Thank You Page */
+
+.thank-you-image {
+    background: url(/assets/images/bicycle-high-five.jpeg) no-repeat center center;
+    height: 820px;
+    width: auto;
+}
+
+.thank-you {
+    float: right;
+    color: white;
+    margin: 50px 10px;
 }
