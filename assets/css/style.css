@@ -16,7 +16,7 @@ h1, h2 , th {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    color: blue;
+    color: #181d24;
 }
 
 /* .social-media {
@@ -95,8 +95,6 @@ h1, h2 , th {
     margin: 50px 10px;
 }
 
-
-
 .about-us, .opening-hours {
     text-align: center;
     margin-top: 1%;
@@ -109,4 +107,13 @@ h1, h2 , th {
 
 th, td {
     padding: 20px;
+}
+
+.form-input {
+    border: 1px solid #181d24;
+    border-radius: 4px;
+}
+
+.form-submit {
+    font-size: 200%;
 }
