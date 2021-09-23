@@ -76,13 +76,14 @@ h1, h2 , th {
 
 /* bike page */
 
-/* .bike-image {
+.bike-image {
     height: auto;
     width: 300px;
     display: inline;
     float: right;
     margin-right: 50px;
-} */
+    border-radius: 10px;
+}
 
 .thank-you-image {
     background: url(/assets/images/bicycle-high-five.jpeg) no-repeat center center;
