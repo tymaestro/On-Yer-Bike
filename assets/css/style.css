@@ -17,6 +17,7 @@ h1, h2 , th {
     font-weight: 300;
     text-transform: uppercase;
     color: #181d24;
+    padding: 10px;
 }
 
 /* Home Page */
@@ -95,13 +96,23 @@ th, td {
 
 /* Bike Page */
 
+/* .bike-div {
+    width: 100%;
+} */
+
 .bike-image {
     height: 150px;
     width: auto;
-    display: inline;
-    float: right;
-    margin-right: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    /* float: right; */
+    margin: 50px;
     border-radius: 10px;
+}
+
+.bike-images {
+    display: inline-block;
+    width: 100%;
 }
 
 #bikes-heading {
@@ -182,8 +193,26 @@ form {
 .thank-you {
     position: absolute;
     color: #ffffff;
+    text-align: center;
     font-size: 32px;
-    padding: 20px;
     background-color: rgb(255, 255, 255, 0.2);
+    /* padding: 20px;
     border-radius: 4px;
+    margin: auto;
+    width: 50%;
+    display: inline-block; */
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 950px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
 }
