@@ -59,7 +59,7 @@ h2 {
 
 .nav-menu {
     float: right;
-    line-height: 75px;
+    line-height: 70px;
 }
 
 .nav-menu a {
@@ -81,15 +81,19 @@ h2 {
     padding: 40px;
 } */
 
-#table-heading {
+/* #table-heading {
     text-align: center;
     padding: 40px;
-}
+} */
 
-.table-section {
+/* .table-section {
     width: 100%;
     padding: 20px;
-}
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+} */
 
 th, td {
     padding: 10px;
@@ -101,7 +105,7 @@ th, td {
 .social-media {
     text-align: center;
     font-size: 200%;
-    padding: 20px;
+    padding: 40px;
 }
 
 .social-media a {
@@ -144,9 +148,8 @@ th, td {
     background-size: cover;
     /* background-position: center;
     height: 750px; */
-    height: 500px;
+    height: 450px;
     width: 100%;
-    border-radius: 1px;
 }
 
 /* .form-section {
@@ -156,11 +159,25 @@ th, td {
 } */
 
 form {
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
     background-color: rgb(0, 0, 0, 0.2);
     border-radius: 4px;
-    padding: 10px;
+    padding: 20px;
+}
+
+.workshop-signup {
+    background-color: black;
+    color: #ffffff;
+}
+
+#workshop-heading {
+    color: #ffffff;
+}
+
+.form-display {
+    display: flex;
+    justify-content: center;
 }
 
 /* .form-section {
@@ -172,15 +189,15 @@ form {
     width: 100%;
 } */
 
-.form-heading {
+/* .form-heading {
     padding: 10px;
     text-align: center;
-}
+} */
 
 .form-input {
     border: 1px solid #ffffff;
     border-radius: 4px;
-    background-color: transparent;
+    background-color: rgb(236, 162, 25);
     margin: 10px;
 }
 
