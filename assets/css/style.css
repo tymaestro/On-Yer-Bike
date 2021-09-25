@@ -103,16 +103,18 @@ th, td {
 .bike-image {
     height: 150px;
     width: auto;
-    display: inline-block;
-    vertical-align: middle;
+    /* display: inline-block;
+    vertical-align: middle; */
     /* float: right; */
     margin: 50px;
     border-radius: 10px;
 }
 
 .bike-images {
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 100%; */
 }
 
 #bikes-heading {
