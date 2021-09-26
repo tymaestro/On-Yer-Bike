@@ -218,8 +218,9 @@ form {
 
 .thank-you-image {
     background: url('../images/bicycle-high-five.jpeg') no-repeat center center;
-    height: 750px;
-    width: auto;
+    height: 450px;
+    width: 100%;
+    background-size: cover;
 }
 
 /* .thank-you {
@@ -228,13 +229,13 @@ form {
     margin: 50px 10px;
 } */
 
-.thank-you {
-    position: absolute;
-    color: #ffffff;
+ .thank-you {
+    /* position: absolute;
+    color: red; */
     text-align: center;
     font-size: 32px;
-    background-color: rgb(255, 255, 255, 0.2);
-    /* padding: 20px;
+    /* background-color: rgb(255, 255, 255, 0.2);
+    padding: 20px;
     border-radius: 4px;
     margin: auto;
     width: 50%;
