@@ -127,19 +127,16 @@ th, td {
 
 .bike-image {
     height: 150px;
-    width: auto;
-    /* display: inline-block;
-    vertical-align: middle; */
-    /* float: right; */
+    width: 225px;
     margin: 50px;
+    background-size: cover;
     border-radius: 10px;
 }
 
 .bike-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    /* width: 100%; */
+    justify-content: center;
 }
 
 #bikes-heading {
@@ -254,16 +251,33 @@ form {
     background-color: #14120c;
 }
 
-/* media queries */
+/* Media Queries */
 
 @media screen and (max-width: 1200px) {
-
+    /* .bike-images {
+        column-count: 3;
+    } */
 }
 
 @media screen and (max-width: 950px) {
-    
+    /* .bike-image {
+        column-count: 2;
+        display: flex;
+        justify-content: center;
+        
+    } */
 }
 
-@media screen and (max-width: 800px) {
-    
+@media screen and (max-width: 600px) {
+    .nav-menu {
+        float: left;
+        clear: left;
+        margin-left: 10px;
+    }
+
+    /* .bike-image {
+        display: flex;
+        justify-content: center;
+        column-count: 1;
+    } */
 }
