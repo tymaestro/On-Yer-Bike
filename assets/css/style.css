@@ -98,7 +98,7 @@ th, td {
 
 /* Bike Page */
 
-.bike-heading {
+.bike-header {
     background: url('../images/bicycle-tree.jpeg') no-repeat center center;
     background-size: cover;
     background-position: 50% 50%;
@@ -107,7 +107,7 @@ th, td {
     border-radius: 1px;
 }
 
-.bike-image {
+.bike-photo {
     height: 150px;
     width: 225px;
     margin: 50px;
@@ -121,7 +121,7 @@ th, td {
     justify-content: center;
 }
 
-#bikes-heading {
+#bicycle-heading {
     text-align: center;
     padding: 20px;
 }
