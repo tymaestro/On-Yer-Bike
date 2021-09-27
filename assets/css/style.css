@@ -126,6 +126,15 @@ th, td {
     width: 100%;
 } */
 
+.bike-heading {
+    background: url('../images/bicycle-tree.jpeg') no-repeat center center;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 500px;
+    width: 100%;
+    border-radius: 1px;
+}
+
 .bike-image {
     height: 150px;
     width: 225px;
