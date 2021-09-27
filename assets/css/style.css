@@ -19,7 +19,9 @@ p {
     line-height: 25px;
 }
 
-h1, h2 , th {
+h1,
+h2,
+th {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -35,9 +37,10 @@ h2 {
 /* Home Page */
 
 .main-image {
-    background: url('../images/cyclists-trail-bike-clouds.jpeg') no-repeat center center;
+    background: url('../images/cyclists-trail-bike-clouds.jpeg') no-repeat;
     background-size: cover;
     background-position: 55% 45%;
+    background-color: skyblue;
     height: 500px;
     width: 100%;
     border-radius: 1px;
@@ -78,7 +81,8 @@ h2 {
     justify-content: center;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: center;
 }
@@ -99,9 +103,10 @@ th, td {
 /* Bike Page */
 
 .bike-header {
-    background: url('../images/bicycle-tree.jpeg') no-repeat center center;
+    background: url('../images/bicycle-tree.jpeg') no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    background-color: skyblue;
     height: 500px;
     width: 100%;
     border-radius: 1px;
@@ -129,16 +134,16 @@ th, td {
 /* Workshop Page */
 
 .workshop-image {
-    background: url('../images/bicycle-sunset.jpeg') no-repeat center center;
+    background: url('../images/bicycle-sunset.jpeg') no-repeat;
     background-size: cover;
     background-position: 55% 45%;
+    background-color: skyblue;
     height: 450px;
     width: 100%;
 }
 
 form {
     text-align: center;
-    background-color: rgb(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 20px;
 }
@@ -152,11 +157,6 @@ form {
     color: #ffffff;
 }
 
-.form-display {
-    display: flex;
-    justify-content: center;
-}
-
 .form-input {
     border: 1px solid #ffffff;
     border-radius: 4px;
@@ -165,9 +165,9 @@ form {
 }
 
 .form-submit {
-    font-size: 16px;
+    font-size: 24px;
     margin: 15px;
-    padding: 10px;
+    padding: 8px;
     background-color: rgb(236, 162, 25);
     border-radius: 4px;
 }
@@ -179,14 +179,15 @@ form {
 /* Thank You Page */
 
 .thank-you-image {
-    background: url('../images/celebration.jpeg') no-repeat center center;
+    background: url('../images/celebration.jpeg') no-repeat;
     background-position: 65% 35%;
+    background-color: skyblue;
     height: 680px;
     width: 100%;
     background-size: cover;
 }
 
- .thank-you {
+.thank-you {
     color: #ffffff;
     text-align: center;
     font-size: 32px;
@@ -198,20 +199,20 @@ form {
 
 /* Media Queries */
 
-@media screen and (max-width: 1200px) {
-    /* .bike-images {
+/* @media screen and (max-width: 1200px) {
+    .bike-images {
         column-count: 3;
-    } */
+    }
 }
 
 @media screen and (max-width: 950px) {
-    /* .bike-image {
+    .bike-image {
         column-count: 2;
         display: flex;
         justify-content: center;
         
-    } */
-}
+    }
+} */
 
 @media screen and (max-width: 600px) {
     .nav-menu {
