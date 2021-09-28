@@ -34,7 +34,7 @@ h2 {
     text-align: center;
     font-size: 28px;
     /* padding: 40px; */
-    margin: 15px;
+    margin: 20px;
 }
 
 label {
@@ -93,7 +93,7 @@ label {
 .table-section {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 28px;
 }
 
 th,
@@ -107,7 +107,8 @@ td {
 
 footer {
     border-top: 1px solid rgba(58, 58, 58, 0.2);
-    margin: 0px 50px;
+    /* margin: 0px 50px; */
+    height: 100px;
 }
 
 .social-media {
