@@ -51,3 +51,39 @@ A nice feature of the form validation is that it takes the users to a thank you 
 This further solidifies a positive user experience on this website and will reassure users that this is a trustworthy and caring website.
 
 ### Technologies
+
+## Testing
+
+### Validator Testing
+
+HTML: no errors were returned when passing through the official W3C validator.
+
+CSS: No errors were found when passing through the official (Jigsaw) validator.
+
+### Lighthouse Testing
+
+All pages passed through Lighthouse testing for mobile and desktop with near perfect scores in Accessibility, SEO, Best Practices and Performance.
+
+### Responsivity
+
+This website has a responsive logo and navigation bar that centre for screens of 650px and lower.
+
+The images, text, forms and tables are responsive without using media queries.
+
+### Cross Browser Testing
+
+## Deployment
+
+## Credits
+
+Font icons are taken from Font Awesome.
+
+All images come from Pexels and image compression used TinyPNG.
+
+Fonts used are from Google Fonts.
+
+Use of Flex taken from completion of Flexbox Froggy game.
+
+Asterisk wild card selector in CSS learned from Love Running project.
+
+README layout taken from Love Running project
