@@ -129,7 +129,7 @@ In the Github repository, select the Main (Master) branch in the settings tab
 
 Having selected the Main (Master) branch, the project will be deployed and will be active in the Github pages section.
 
-The live link can be found here - 
+The live link can be found here - https://tymaestro.github.io/On-Yer-Bike/
 
 ## Credits
 <br>
@@ -145,3 +145,13 @@ Use of Flex taken from completion of [Flexbox Froggy](https://flexboxfroggy.com/
 Asterisk wild card selector in CSS learned from Love Running project walkthrough.
 
 README layout taken from Love Running project walkthrough.
+<br>
+<br>
+
+### Text
+
+All text is original content
+
+## Acknowledgements
+
+My mentor for helpful feedback during mentor sessions
