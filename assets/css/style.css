@@ -13,11 +13,12 @@ body {
 }
 
 p {
-    margin-left: 10%;
-    margin-right: 10%;
     font-size: 18px;
     text-align: center;
     line-height: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 30px;
 }
 
 h1,
