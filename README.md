@@ -62,15 +62,17 @@ This further solidifies a positive user experience on this website and will reas
 
 <img src="./readme/images/thanks.png">
 
+## Testing
+
 ### Technologies
 
-## Testing
+HTML5, CSS3
 
 ### Validator Testing
 
-HTML: no errors were returned when passing through the official W3C validator.
+HTML: No errors were returned when passing through the official W3C validator.
 
-CSS: No errors were found when passing through the official (Jigsaw) validator.
+CSS: No errors were returned when passing through the official (Jigsaw) validator.
 
 ### Lighthouse Testing
 
@@ -80,7 +82,9 @@ All pages passed through Lighthouse testing for mobile and desktop with near per
 
 This website has a responsive logo and navigation bar that centre for screens of 650px and lower.
 
-The images, text, forms and tables are responsive without using media queries.
+The Workshop background image has a media query to align the image for screens of 475px and under.
+
+The other images, text, forms and tables are responsive without using media queries.
 
 ### Cross Browser Testing
 
@@ -88,11 +92,11 @@ The images, text, forms and tables are responsive without using media queries.
 
 ## Credits
 
-Font icons are taken from Font Awesome.
+Font icons were used throughout the website and have been taken from Font Awesome.
 
-All images come from Pexels and image compression used TinyPNG.
+All images(except project screenshots) come from Pexels and image compression used TinyPNG.
 
-Fonts used are from Google Fonts.
+Fonts used were Open-Sans and Roboto and were taken from Google Fonts.
 
 Use of Flex taken from completion of Flexbox Froggy game.
 
