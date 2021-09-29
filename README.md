@@ -3,7 +3,7 @@
 
 On Yer Bike is a Dublin-based bicycle website that aims to make cycling more accessible and affordable to everyone. It offers reconditioned bikes as well as workshops for bike maintenance. This is an opportunity for users to both learn a new skill and be a part of the local community. This website is a friendly environment that caters to cyclists of all levels. On Yer Bike will allow users to view bikes from our range of models and sign up to maintenance workshops.
 
-<img src="./readme/images/multi-device.png">
+<img src="./assets/images/multi-device.png">
 
 ## Features
 <br>
@@ -14,7 +14,7 @@ The navigation bar links to the Home, Bikes, Workshops and Thank You pages inclu
 
 Coupled with the title of the website, the Home background image immediately indicates to users that the website is bike-oriented and sparks their curiosity as to the content of this website.
 
-<img src="./readme/images/nav-bar.png">
+<img src="./assets/images/nav-bar.png">
 <br>
 <br>
 
@@ -26,7 +26,7 @@ This section introduces the users to the company concept and gives information a
 
 This section is a table feature that clearly indicates the opening hours of the shop so that users can plan their trip to the shop and have plenty of time to browse the bikes without being left short of time.
 
-<img src="./readme/images/our-story.png">
+<img src="./assets/images/our-story.png">
 <br>
 <br>
 
@@ -36,7 +36,7 @@ The footer section of this website is reserved for social media links so that us
 
 All links open in separate tabs and are featured on the footer of every page for consistency.
 
-<img src="./readme/images/social-media.png">
+<img src="./assets/images/social-media.png">
 <br>
 <br>
 
@@ -44,7 +44,7 @@ All links open in separate tabs and are featured on the footer of every page for
 
 The header of the bike page features an attractive bike scene that distinguishes this page from the home page while keeping the same design and consistency of the navigation bar and logo for an optimal user experience.
 
-<img src="./readme/images/bike-image.png">
+<img src="./assets/images/bike-image.png">
 <br>
 <br>
 
@@ -54,7 +54,7 @@ This section features a selection of the many bikes available at On Yer Bike so 
 
 This section also encourages users to drop by the shop for their custom-fit bicycle where they can engage with staff and get to know people in the local community.
 
-<img src="./readme/images/bikes.png">
+<img src="./assets/images/bikes.png">
 <br>
 <br>
 
@@ -64,7 +64,7 @@ This section allows users to sign up to workshops so they can begin their journe
 
 All form fields are required for form validation.
 
-<img src="./readme/images/workshop-signup.png">
+<img src="./assets/images/workshop-signup.png">
 <br>
 <br>
 
@@ -74,7 +74,7 @@ A nice feature of the form validation is that it takes the users to a thank you 
 
 This further solidifies a positive user experience on this website and will reassure users that this is a trustworthy and caring website.
 
-<img src="./readme/images/thanks.png">
+<img src="./assets/images/thanks.png">
 <br>
 <br>
 
@@ -120,6 +120,8 @@ All features have been thoroughly tested using my published Github Pages link to
 The form validates to my Thank You page as intended and all fields are required before validation can occur.
 
 ### Cross Browser Testing
+
+Project has been tested on the Google Chrome browser, Safari browser, and DuckDuckGo browser and is fully functional on both desktop and mobile versions.
 
 ## Deployment
 <br>
