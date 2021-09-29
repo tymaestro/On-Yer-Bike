@@ -13,9 +13,9 @@ body {
 }
 
 p {
-    margin: 15px 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 18px;
-    /* margin-right: 100px; */
     text-align: center;
     line-height: 25px;
 }
@@ -33,12 +33,12 @@ th {
 h2 {
     text-align: center;
     font-size: 28px;
-    /* padding: 40px; */
-    margin: 20px;
+    padding: 40px 0px;
+    /* margin: 20px; */
 }
 
 label {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* Home Page */
@@ -90,6 +90,20 @@ label {
 
 /* About Us and Opening Hours Section */
 
+/* .about-us {
+    border-bottom: 1px solid rgba(58, 58, 58, 0.2);
+    margin: 0px 100px;
+} */
+
+.about-us {
+    margin-bottom: 40px;
+}
+
+.opening-hours {
+    border-top: 1px solid rgba(58, 58, 58, 0.2);
+    margin: 0px 20px;
+}
+
 .table-section {
     display: flex;
     justify-content: center;
@@ -105,16 +119,18 @@ td {
 
 /* Social Media Footer */
 
-footer {
+/* footer {
     border-top: 1px solid rgba(58, 58, 58, 0.2);
-    /* margin: 0px 50px; */
+    margin: 0px 100px;
     height: 100px;
-}
+} */
 
 .social-media {
     text-align: center;
     font-size: 200%;
     padding: 30px;
+    border-top: 1px solid rgba(58, 58, 58, 0.2);
+    margin: 0px 20px;
 }
 
 .social-media a {
@@ -150,7 +166,7 @@ footer {
 
 #bicycle-heading {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 /* Workshop Page */
@@ -167,20 +183,20 @@ footer {
 form {
     text-align: center;
     border-radius: 4px;
+    /* background-color: rgb(0, 0, 0, 0.3); */
     padding: 20px;
 }
 
-.workshop-signup {
-    background-color: black;
-    color: #ffffff;
-}
+/* .workshop-signup {
+    background-color: rgb(0, 0, 0, 0.3);
+} */
 
-#workshop-heading {
+/* #workshop-heading {
     color: #ffffff;
-}
+} */
 
 .form-input {
-    border: 1px solid #ffffff;
+    border: 1px solid #181d24;
     border-radius: 4px;
     background-color: rgb(236, 162, 25);
     margin: 10px;
@@ -222,24 +238,33 @@ form {
 /* Media Queries */
 
 /* @media screen and (max-width: 1200px) {
-    .bike-images {
-        column-count: 3;
+    p {
+        margin: 10px 40px;
+    }
+
+    .about-us {
+        margin: 40px;
     }
 }
 
 @media screen and (max-width: 950px) {
-    .bike-image {
-        column-count: 2;
-        display: flex;
-        justify-content: center;
-        
+    p {
+        margin: 10px 20px;
+    }
+
+    .about-us {
+        margin: 20px;
     }
 } */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .nav-menu {
         float: left;
         clear: left;
-        margin-left: 10px;
+        margin-left: 15px;
+    }
+
+    .nav-menu a {
+        padding: 5px;
     }
 }
