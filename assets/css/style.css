@@ -2,14 +2,14 @@
 
 * {
     border: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body {
+    color: #181d24;
     font-family: Open-Sans, sans-serif;
     font-weight: 300;
-    color: #181d24;
 }
 
 p {
@@ -26,20 +26,23 @@ h2,
 th {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    text-transform: uppercase;
     color: #181d24;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 h2 {
-    text-align: center;
     font-size: 28px;
     padding: 40px 0px;
-    /* margin: 20px; */
+    text-align: center;
 }
 
 label {
     font-size: 24px;
+}
+
+.header-main-container {
+    min-height: calc(100vh - 98px);
 }
 
 /* Home Page */
@@ -49,31 +52,31 @@ label {
     background-size: cover;
     background-position: 55% 45%;
     background-color: skyblue;
+    border-radius: 1px;
     height: 500px;
     width: 100%;
-    border-radius: 1px;
 }
 
 .title {
-    line-height: 50px;
     float: left;
+    line-height: 50px;
     margin-left: 10px;
 }
 
 .title a {
-    text-decoration: none;
+    color: white;
     font-size: 32px;
     font-weight: 600;
-    color: white;
+    text-decoration: none;
 }
 
 /* Navigation */
 
 .nav-banner {
-    width: 100%;
+    background: rgb(0, 0, 0, 0.3);
     height: 80px;
     position: absolute;
-    background: rgb(0, 0, 0, 0.3);
+    width: 100%;
 }
 
 .nav-menu {
@@ -83,18 +86,17 @@ label {
 }
 
 .nav-menu a {
-    text-decoration: none;
     color: white;
     font-size: 28px;
     padding: 10px;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: #ffffffcb;
 }
 
 /* About Us and Opening Hours Section */
-
-/* .about-us {
-    border-bottom: 1px solid rgba(58, 58, 58, 0.2);
-    margin: 0px 100px;
-} */
 
 .about-us {
     margin-bottom: 40px;
@@ -108,39 +110,33 @@ label {
 .table-section {
     display: flex;
     justify-content: center;
-    margin: 28px;
+    margin-bottom: 20px;
 }
 
 th,
 td {
-    padding: 10px;
-    text-align: center;
     font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Social Media Footer */
 
-/* footer {
-    border-top: 1px solid rgba(58, 58, 58, 0.2);
-    margin: 0px 100px;
-    height: 100px;
-} */
-
 .social-media {
-    text-align: center;
-    font-size: 200%;
-    padding: 30px;
     border-top: 1px solid rgba(58, 58, 58, 0.2);
+    font-size: 200%;
     margin: 0px 20px;
+    padding: 30px;
+    text-align: center;
 }
 
 .social-media a {
-    padding: 20px;
     color: #181d24;
+    padding: 20px;
 }
 
 .social-media a:hover {
-    color: #703081;
+    color: rgb(236, 162, 25);
 }
 
 /* Bike Page */
@@ -150,17 +146,17 @@ td {
     background-size: cover;
     background-position: 50% 50%;
     background-color: skyblue;
+    border-radius: 1px;
     height: 500px;
     width: 100%;
-    border-radius: 1px;
 }
 
 .bike-photo {
-    height: 150px;
-    width: 225px;
-    margin: 50px;
     background-size: cover;
     border-radius: 10px;
+    height: 150px;
+    margin: 50px;
+    width: 225px;
 }
 
 .bike-images {
@@ -170,8 +166,8 @@ td {
 }
 
 #bicycle-heading {
-    text-align: center;
     padding: 40px;
+    text-align: center;
 }
 
 /* Workshop Page */
@@ -185,38 +181,46 @@ td {
     width: 100%;
 }
 
-form {
-    text-align: center;
-    border-radius: 4px;
-    /* background-color: rgb(0, 0, 0, 0.3); */
-    padding: 20px;
+#signup-heading {
+    border-top: 1px solid rgba(58, 58, 58, 0.2);
+    margin: 0px 20px;
+    padding-bottom: 25px;
+    padding-top: 40px;
 }
 
-/* .workshop-signup {
-    background-color: rgb(0, 0, 0, 0.3);
-} */
+form {
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+}
 
-/* #workshop-heading {
-    color: #ffffff;
-} */
+.workshop-signup {
+    padding-bottom: 40px;
+}
 
 .form-input {
+    background-color: rgb(236, 162, 25);
     border: 1px solid #181d24;
     border-radius: 4px;
-    background-color: rgb(236, 162, 25);
+    height: 25px;
     margin: 10px;
 }
 
 .form-submit {
+    background-color: rgb(236, 162, 25);
+    border-radius: 4px;
+    border: 1px solid #181d24;
     font-size: 24px;
     margin: 15px;
     padding: 8px;
-    background-color: rgb(236, 162, 25);
-    border-radius: 4px;
 }
 
 .form-submit:hover {
     color: #ffffff;
+}
+
+.signup {
+    background-color: rgb(236, 162, 25, 0.1);
 }
 
 /* Thank You Page */
@@ -225,56 +229,30 @@ form {
     background: url('../images/celebration.jpeg') no-repeat;
     background-position: 65% 35%;
     background-color: skyblue;
+    background-size: cover;
     height: 500px;
     width: 100%;
-    background-size: cover;
 }
 
-/* .thank-you {
-    color: #ffffff;
-    text-align: center;
-    font-size: 32px;
-} */
-
-/* .thank-you-section {
-    background-color: #14120c;
-} */
+.thank-you {
+    margin-top: 50px;
+}
 
 /* Media Queries */
 
-/* @media screen and (max-width: 1200px) {
-    p {
-        margin: 10px 40px;
-    }
-
-    .about-us {
-        margin: 40px;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    p {
-        margin: 10px 20px;
-    }
-
-    .about-us {
-        margin: 20px;
-    }
-} */
-
 @media screen and (max-width: 650px) {
     .title {
-        line-height: 50px;
         float: none;
-        text-align: center;
+        line-height: 50px;
         margin-left: 10px;
+        text-align: center;
     }
 
     .nav-menu {
-        float: initial;
-        text-align: center;
         clear: left;
+        float: initial;
         margin-left: 15px;
+        text-align: center;
     }
 
     .nav-menu a {

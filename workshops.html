@@ -13,39 +13,47 @@
 </head>
 
 <body>
-    <header>
-        <div class="nav-banner">
-            <h1 class="title"><a href="index.html">On Yer Bike <i class="fas fa-biking"></i></a></h1>
-            <nav class="nav-menu">
-                <a href="index.html">Home</a>
-                <a href="bikes.html">Bikes</a>
-                <a href="workshops.html">Workshops</a>
-            </nav>
-        </div>
-    <div class="workshop-image"></div>
-    </header>
-    <main>
-        <section>
-            <div class="workshop-signup">
-                <h2 id="workshop-heading"><i class="fas fa-wrench"></i> Workshop Sign Up! <i class="fas fa-wrench"></i></h2>
-                <form action="thankyou.html" method="GET">
-                    <label for="fname" class="form-label">First Name</label>
-                    <br>
-                    <input type="text" id="fname" name="first-name" class="form-input" required>
-                    <br>
-                    <label for="lname" class="form-label">Last Name</label>
-                    <br>
-                    <input type="text" id="lname" name="last-name" class="form-input" required>
-                    <br>
-                    <label for="email-address" class="form-label">Email</label>
-                    <br>
-                    <input type="email" id="email-address" name="email" class="form-input" required>
-                    <br>
-                    <input type="submit" value="On Yer Bike!" class="form-submit">
-                </form>
+    <div class="header-main-container">
+        <header>
+            <div class="nav-banner">
+                <h1 class="title"><a href="index.html">On Yer Bike <i class="fas fa-biking"></i></a></h1>
+                <nav class="nav-menu">
+                    <a href="index.html">Home</a>
+                    <a href="bikes.html">Bikes</a>
+                    <a href="workshops.html">Workshops</a>
+                </nav>
             </div>
-        </section>
-    </main>
+            <div class="workshop-image"></div>
+        </header>
+        <main>
+            <section>
+                <div class="workshop-signup">
+                    <h2><i class="fas fa-wrench"></i> Workshops <i class="fas fa-wrench"></i></h2>
+                    <p>The workshops are really the nuts and bolts of what we are all about and we can't thank you
+                        enough for taking the time to sign up. We will email you with next month's schedule along with
+                        10% off your first purchase with us!</p>
+                </div>
+                <div class="signup">
+                    <h2 id="signup-heading">Sign Up!</h2>
+                    <form action="thankyou.html" method="GET">
+                        <label for="fname">First Name</label>
+                        <br>
+                        <input type="text" id="fname" name="first-name" class="form-input" required>
+                        <br>
+                        <label for="lname">Last Name</label>
+                        <br>
+                        <input type="text" id="lname" name="last-name" class="form-input" required>
+                        <br>
+                        <label for="email-address">Email</label>
+                        <br>
+                        <input type="email" id="email-address" name="email" class="form-input" required>
+                        <br>
+                        <input type="submit" value="On Yer Bike!" class="form-submit">
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
     <footer>
         <div class="social-media">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener"
