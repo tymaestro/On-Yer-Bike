@@ -37,3 +37,17 @@ The header of the bike page features an attractive bike scene that distinguishes
 This section features a selection of the many bikes available at On Yer Bike so that users have an idea of what products and services we can offer them.
 
 This section also encourages users to drop by the shop for their custom-fit bicycle where they can engage with staff and get to know people in the local community.
+
+### Workshop Section
+
+This section allows users to sign up to workshops so they can begin their journey into learning bike maintenance.
+
+All form fields are required for form validation.
+
+### Thank You Page
+
+A nice feature of the form validation is that it takes the users to a thank you page.
+
+This further solidifies a positive user experience on this website and will reassure users that this is a trustworthy and caring website.
+
+### Technologies
