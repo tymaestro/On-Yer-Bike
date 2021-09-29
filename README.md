@@ -92,7 +92,7 @@ HTML: No errors were returned when passing through the official W3C validator.
 
 CSS: No errors were returned when passing through the official (Jigsaw) validator.
 
-### Lighthouse Testing
+### Google Lighthouse Testing
 
 All pages passed through Lighthouse testing for mobile and desktop with near perfect scores in Accessibility, SEO, Best Practices and Performance.
 
@@ -100,9 +100,17 @@ All pages passed through Lighthouse testing for mobile and desktop with near per
 
 This website has a responsive logo and navigation bar that centre for screens of 650px and lower.
 
-The Workshop background image has a media query to align the image for screens of 475px and under.
+The Workshop background image has a media query to align the image for screens of 475px and lower.
 
 The other images, text, forms and tables are responsive without using media queries.
+
+I have tested all pages of this project using Google Devtools to ensure that it meets the responsivity requirements for both desktop devices and mobile devices with screen widths as low as 360px
+
+### Feature Function
+
+All features have been thoroughly tested using my published Github pages link to ensure that the functionally of my site is not limited to my Gitpod server. The Home, Bikes, and Workshops links in the navigation bar go to their intended page as does the logo which is linked to the Home page.
+
+The form validates to my Thank You page as intended and all fields are required before validation can occur.
 
 ### Cross Browser Testing
 
