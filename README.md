@@ -78,6 +78,11 @@ This further solidifies a positive user experience on this website and will reas
 <br>
 <br>
 
+### Features Left to Implement
+
+Add a timetable and reservation system so users can choose workshop times most suited to them and that we can organise our staff to meet the needs of attendees.
+<br>
+
 ## Testing
 <br>
 
@@ -118,6 +123,13 @@ The form validates to my Thank You page as intended and all fields are required 
 
 ## Deployment
 <br>
+The site was deployed to Github Pages through the following steps:
+
+In the Github repository, select the Main (Master) branch in the settings tab
+
+Having selected the Main (Master) branch, the project will be deployed and will be active in the Github pages section.
+
+The live link can be found here - 
 
 ## Credits
 <br>
