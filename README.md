@@ -96,6 +96,8 @@ CSS: No errors were returned when passing through the official (Jigsaw) validato
 
 All pages passed through Lighthouse testing for mobile and desktop with near perfect scores in Accessibility, SEO, Best Practices and Performance.
 
+Using Google Lighthouse helped me improve my scores by checking their warnings and addressing them to achieve a higher score.
+
 ### Responsivity
 
 This website has a responsive logo and navigation bar that centre for screens of 650px and lower.
@@ -108,7 +110,7 @@ I have tested all pages of this project using Google Devtools to ensure that it 
 
 ### Feature Function
 
-All features have been thoroughly tested using my published Github pages link to ensure that the functionally of my site is not limited to my Gitpod server. The Home, Bikes, and Workshops links in the navigation bar go to their intended page as does the logo which is linked to the Home page.
+All features have been thoroughly tested using my published Github Pages link to ensure that the functionally of my site is not limited to my local Gitpod server. The Home, Bikes, and Workshops links in the navigation bar go to their intended page as does the logo which is linked to the Home page.
 
 The form validates to my Thank You page as intended and all fields are required before validation can occur.
 
@@ -120,14 +122,14 @@ The form validates to my Thank You page as intended and all fields are required 
 ## Credits
 <br>
 
-Font icons were used throughout the website and have been taken from Font Awesome.
+Font icons were used throughout the website and have been taken from [Font Awesome](https://fontawesome.com/).
 
-All images(except project screenshots) come from Pexels and image compression used TinyPNG.
+All images(except project screenshots) come from [Pexels](https://www.pexels.com/) and image compression used [TinyPNG](https://tinypng.com/).
 
-Fonts used were Open-Sans and Roboto and were taken from Google Fonts.
+Fonts used were Open-Sans and Roboto and were taken from [Google Fonts](https://fonts.google.com/).
 
-Use of Flex taken from completion of Flexbox Froggy game.
+Use of Flex taken from completion of [Flexbox Froggy](https://flexboxfroggy.com/) game.
 
-Asterisk wild card selector in CSS learned from Love Running project.
+Asterisk wild card selector in CSS learned from Love Running project walkthrough.
 
-README layout taken from Love Running project
+README layout taken from Love Running project walkthrough.

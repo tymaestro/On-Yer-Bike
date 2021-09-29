@@ -41,6 +41,8 @@ label {
     font-size: 24px;
 }
 
+/* Use of calc() was learned from my mentor Akshat Garg */
+
 .header-main-container {
     min-height: calc(100vh - 98px);
 }
