@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
+/* Multi-page elements */
+
 * {
     border: none;
     margin: 0;
@@ -35,10 +37,6 @@ h2 {
     font-size: 28px;
     padding: 40px 0px;
     text-align: center;
-}
-
-label {
-    font-size: 24px;
 }
 
 /* Use of calc() was learned from my mentor Akshat Garg */
@@ -198,6 +196,10 @@ form {
 
 .workshop-signup {
     padding-bottom: 40px;
+}
+
+label {
+    font-size: 24px;
 }
 
 .form-input {
