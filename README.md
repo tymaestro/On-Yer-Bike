@@ -1,10 +1,11 @@
 # On Yer Bike
 <br>
 
-On Yer Bike is a Dublin-based bicycle website that aims to make cycling more accessible and affordable to everyone. It offers reconditioned bikes as well as workshops for bike maintenance. This is an opportunity for users to both learn a new skill and be a part of the local community. This website is a friendly environment that caters to cyclists of all levels. On Yer Bike will allow users to view bikes from our range of models and sign up to maintenance workshops.
+The live link can be found here: [On Yer Bike](https://tymaestro.github.io/On-Yer-Bike/)
 <br>
 
-The live link can be found here: [One Yer Bike](https://tymaestro.github.io/On-Yer-Bike/)
+On Yer Bike is a Dublin-based bicycle website that aims to make cycling more accessible and affordable to everyone. It offers reconditioned bikes as well as workshops for bike maintenance. This is an opportunity for users to both learn a new skill and be a part of the local community. This website is a friendly environment that caters to cyclists of all levels. On Yer Bike will allow users to view bikes from our range of models and sign up to maintenance workshops.
+<br>
 
 <img src="./assets/images/multi-device.png">
 
@@ -134,7 +135,7 @@ In the Github repository, select the Main (Master) branch in the settings tab
 
 Having selected the Main (Master) branch, the project will be deployed and will be active in the Github pages section.
 
-The live link can be found here: [One Yer Bike](https://tymaestro.github.io/On-Yer-Bike/)
+The live link can be found here: [On Yer Bike](https://tymaestro.github.io/On-Yer-Bike/)
 
 ## Credits
 <br>
